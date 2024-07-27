@@ -18,35 +18,33 @@ for i in range(1000000000000000000000000000):
         break
 time.sleep(0.5)
 
-# The second number in a range is decided by the user
-Range2=int(input("Give me a number: "))
+# The second number in a range is decided by the user which is bigger than the first number
+Range2=int(input("Now please give me the largest number in the range: "))
 for i in range(1000000000000000000000000000):
     if Range2<Range1 or Range2==Range1:
         print("Number to small")
         time.sleep(0.25)
-        Range2=int(input("Give me a number: "))
+        Range2=int(input("Now please give me the largest number in the range: "))
     else:
         break
 time.sleep(0.5)
 
 # The user decides a number in the range they decided
-print("Give me a number betweeen",Range1,"and",Range2,":")
-Num=int(input(" "))
+Num=int(input("Input the number you want the computer to guess: "))
 for i in range(1000000000000000000000000000):
     if Num<Range1 or Num>Range2:
         print("Number not in range")
         time.sleep(0.25)
-        print("Give me a number betweeen",Range1,"and",Range2,":")
-        Num=int(input(" "))
+        Num=int(input("Input the number you want the computer to guess: "))
     else:
         break
 time.sleep(0.5)
 for i in range(1000000000000000000000000000):
-    Game_gueses=int(input("Give me a number: "))
+    Game_gueses=int(input("Please provide how many times the computer gets to try to guess your number: "))
     if Game_gueses==0 or Game_gueses<0:
         print("Number to small")
         time.sleep(0.25)
-        Game_gueses=int(input("Give me a number: "))
+        Game_gueses=int(input("Please provide how many times the computer gets to try to guess your number: "))
     else:
         break
 time.sleep(0.5)
