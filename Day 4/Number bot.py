@@ -1,5 +1,5 @@
 # Ideas
-
+# zz
 # 001 - create a counter that adds up the number of times that the bot guesses - so in our case the bot guessed 10 times total to get the right answer
 
 # Import of random give acces to the abilty to use RNG and the import of time gives acces to the pause feature
