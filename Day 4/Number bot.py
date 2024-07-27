@@ -7,13 +7,13 @@ import random,time
 win=0
 
 # The first number in a range is decided by the user
-Range1=int(input("Give me a number: "))
+Range1=int(input("You are going to give me a range of numbers, please provide the lowest number in the range: "))
 for i in range(1000000000000000000000000000):
     # if Range1<0 or Range1==0:
     if Range1<=0:     
         print("Number to small")
         time.sleep(0.25)
-        Range1=int(input("Give me a number: "))
+        Range1=int(input("You are going to give me a range of numbers, please provide the lowest number in the range: "))
     else:
         break
 time.sleep(0.5)
