@@ -1,0 +1,9 @@
+old_a=10
+old_b=5
+a=old_a
+b=old_b
+print(a,b)
+a=old_b
+b=old_a
+print('Swapped:')
+print(a,b)

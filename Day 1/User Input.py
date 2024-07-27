@@ -1,0 +1,8 @@
+user_name=input("What is your name? ")
+print("hello,",user_name)
+user_food=input("What is your favorite food? ")
+print(user_name,"likes",user_food)
+name=input("Give me a name: ")
+noun=input("Give me a noun: ")
+adjective=input("Give me a adjective: ")
+print("please excuse",name,"who is far too",adjective,"to attend the",noun,"class")

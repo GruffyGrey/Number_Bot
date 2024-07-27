@@ -1,0 +1,18 @@
+import turtle,random
+p=turtle.Pen()
+p.speed(0)
+p.shapesize(0.1)
+# num_petals=int(input("How many petals do you want: "))
+num_petals=int(turtle.numinput("Flowers","How many petals do you want?"))
+# r=random.random()
+# g=random.random()
+# b=random.random()
+# p.color(r,g,b)
+for i in range(num_petals):
+    r=random.random()
+    g=random.random()
+    b=random.random()
+    p.color(r,g,b)
+    p.circle(50)
+    p.left(360/num_petals)
+turtle.mainloop()
